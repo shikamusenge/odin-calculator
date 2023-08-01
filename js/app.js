@@ -35,7 +35,7 @@ const calculate=()=>{
    dataArray = multply(dataArray);
    dataArray=add(dataArray);
    dataArray=substract(dataArray);
-   answerDiv.innerHTML=` ${Math.round(dataArray[0])}`
+   answerDiv.innerHTML=` ${dataArray[0].toFixed(3)}`	
    answer = Math.round(dataArray[0]);
 }
 const substract = (data)=>{

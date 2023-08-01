@@ -31,16 +31,13 @@ body{
     justify-content: right;
     min-height: 2rem;
     max-height: 2rem;
+    padding: 0;
     
 }
-#user-input #m {
-    margin: 0;
-visibility: hidden;
-}
 #user-input input{
-    min-width: 83%;
-    padding-right: 10px;
-    min-height: 1rem;
+    min-width: 97%;
+    padding-inline-end:2rem;
+    min-height: 2px;
     background-color: inherit;
     border: none;
     outline: none;
@@ -62,8 +59,8 @@ visibility: hidden;
     background-color: rgba(27, 18, 18, 0.795);
 }
 .btn{
-    min-height: 20px;
-    min-width:  40px;
+    min-height: 2.5rem;
+    min-width:  4rem;
     border: none;
     margin: 3px;
     border-radius: 2px;
@@ -88,5 +85,5 @@ visibility: hidden;
 }
 #equal{
     position: absolute;
-    min-height: 46px;
+    min-height: 5.3rem;
 }
